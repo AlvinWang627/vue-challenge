@@ -1,17 +1,32 @@
 <script setup>
 import RefFamily from './components/2RefFamily.vue'
 import LosingReactivity from './components/3LosingReactivity.vue'
+import WritableComputed from './components/4WritableComputed.vue'
+import WatchFamily from './components/5WatchFamily.vue'
+import ShallowRef from './components/6ShallowRef.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <div>
+    <!-- <div>
       <h1>2 RefFamily</h1>
       <RefFamily />
     </div>
     <div>
       <h1>3 LosingReactivity</h1>
       <LosingReactivity />
+    </div> -->
+    <!-- <div>
+      <h1>4 WritableComputed</h1>
+      <WritableComputed />
+    </div> -->
+    <!-- <div>
+      <h1>5 WatchFamily</h1>
+      <WatchFamily />
+    </div> -->
+        <div>
+      <h1>6 ShallowRef</h1>
+      <ShallowRef />
     </div>
   </div>
 </template>
