@@ -7,11 +7,15 @@ const count = ref(0)
  * Challenge 1: Watch once
  * Make sure the watch callback is only triggered once
  */
-const unwatch = watch(count, () => {
-  console.log('Only triggered once')
-  unwatch()
-})
-//once也可以
+watch(
+  count,
+  () => {
+    console.log('Only triggered once')
+  },
+  {
+    once: true
+  }
+)
 count.value = 1
 setTimeout(() => (count.value = 2))
 

@@ -4,30 +4,15 @@ import LosingReactivity from './components/3LosingReactivity.vue'
 import WritableComputed from './components/4WritableComputed.vue'
 import WatchFamily from './components/5WatchFamily.vue'
 import ShallowRef from './components/6ShallowRef.vue'
+import DependencyInjection from './components/9DependencyInjection.vue'
+import LifecycleHooks from './components/10LifecycleHooks.vue'
+import NextDomUpdate from './components/11NextDomUpdate.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <!-- <div>
-      <h1>2 RefFamily</h1>
-      <RefFamily />
-    </div>
-    <div>
-      <h1>3 LosingReactivity</h1>
-      <LosingReactivity />
-    </div> -->
-    <!-- <div>
-      <h1>4 WritableComputed</h1>
-      <WritableComputed />
-    </div> -->
-    <!-- <div>
-      <h1>5 WatchFamily</h1>
-      <WatchFamily />
-    </div> -->
-        <div>
-      <h1>6 ShallowRef</h1>
-      <ShallowRef />
-    </div>
+    <h1>11NextDomUpdate</h1>
+    <NextDomUpdate />
   </div>
 </template>
 
