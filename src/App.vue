@@ -7,12 +7,15 @@ import ShallowRef from './components/6ShallowRef.vue'
 import DependencyInjection from './components/9DependencyInjection.vue'
 import LifecycleHooks from './components/10LifecycleHooks.vue'
 import NextDomUpdate from './components/11NextDomUpdate.vue'
+import DynamicCssValues from './components/14DynamicCssValues.vue'
+import PreventEventPropagation from './components/243PreventEventPropagation.vue'
+import Capitalize from './components/305Capitalize.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <h1>11NextDomUpdate</h1>
-    <NextDomUpdate />
+    <h1>Capitalize</h1>
+    <Capitalize />
   </div>
 </template>
 
