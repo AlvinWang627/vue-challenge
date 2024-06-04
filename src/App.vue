@@ -12,12 +12,13 @@ import PreventEventPropagation from './components/easy/243PreventEventPropagatio
 import Capitalize from './components/easy/305Capitalize.vue'
 import RawApi from './components/medium/7RawApi.vue'
 import EffectScopeApi from './components/medium/10EffectScopeApi.vue'
+import OptimizePerfDirective from './components/medium/12OptimizePerfDirective.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <h1>EffectScopeApi</h1>
-    <EffectScopeApi />
+    <h1>OptimizePerfDirective</h1>
+    <OptimizePerfDirective />
   </div>
 </template>
 
