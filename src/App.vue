@@ -1,15 +1,15 @@
 <script setup>
-import RefFamily from './components/2RefFamily.vue'
-import LosingReactivity from './components/3LosingReactivity.vue'
-import WritableComputed from './components/4WritableComputed.vue'
-import WatchFamily from './components/5WatchFamily.vue'
-import ShallowRef from './components/6ShallowRef.vue'
-import DependencyInjection from './components/9DependencyInjection.vue'
-import LifecycleHooks from './components/10LifecycleHooks.vue'
-import NextDomUpdate from './components/11NextDomUpdate.vue'
-import DynamicCssValues from './components/14DynamicCssValues.vue'
-import PreventEventPropagation from './components/243PreventEventPropagation.vue'
-import Capitalize from './components/305Capitalize.vue'
+import RefFamily from './components/easy/2RefFamily.vue'
+import LosingReactivity from './components/easy/3LosingReactivity.vue'
+import WritableComputed from './components/easy/4WritableComputed.vue'
+import WatchFamily from './components/easy/5WatchFamily.vue'
+import ShallowRef from './components/easy/6ShallowRef.vue'
+import DependencyInjection from './components/easy/9DependencyInjection.vue'
+import LifecycleHooks from './components/easy/10LifecycleHooks.vue'
+import NextDomUpdate from './components/easy/11NextDomUpdate.vue'
+import DynamicCssValues from './components/easy/14DynamicCssValues.vue'
+import PreventEventPropagation from './components/easy/243PreventEventPropagation.vue'
+import Capitalize from './components/easy/305Capitalize.vue'
 </script>
 
 <template>
