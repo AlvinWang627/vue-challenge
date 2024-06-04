@@ -10,12 +10,13 @@ import NextDomUpdate from './components/easy/11NextDomUpdate.vue'
 import DynamicCssValues from './components/easy/14DynamicCssValues.vue'
 import PreventEventPropagation from './components/easy/243PreventEventPropagation.vue'
 import Capitalize from './components/easy/305Capitalize.vue'
+import RawApi from './components/medium/7RawApi.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <h1>Capitalize</h1>
-    <Capitalize />
+    <h1>RawApi</h1>
+    <RawApi />
   </div>
 </template>
 
