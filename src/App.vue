@@ -11,12 +11,13 @@ import DynamicCssValues from './components/easy/14DynamicCssValues.vue'
 import PreventEventPropagation from './components/easy/243PreventEventPropagation.vue'
 import Capitalize from './components/easy/305Capitalize.vue'
 import RawApi from './components/medium/7RawApi.vue'
+import EffectScopeApi from './components/medium/10EffectScopeApi.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <h1>RawApi</h1>
-    <RawApi />
+    <h1>EffectScopeApi</h1>
+    <EffectScopeApi />
   </div>
 </template>
 
