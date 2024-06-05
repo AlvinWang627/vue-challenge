@@ -14,12 +14,13 @@ import RawApi from './components/medium/7RawApi.vue'
 import EffectScopeApi from './components/medium/10EffectScopeApi.vue'
 import OptimizePerfDirective from './components/medium/12OptimizePerfDirective.vue'
 import UseToggle from './components/medium/15UseToggle.vue'
+import Until from './components/medium/16Until.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <h1>UseToggle</h1>
-    <UseToggle />
+    <h1>Until</h1>
+    <Until />
   </div>
 </template>
 
