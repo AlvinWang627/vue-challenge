@@ -15,12 +15,13 @@ import EffectScopeApi from './components/medium/10EffectScopeApi.vue'
 import OptimizePerfDirective from './components/medium/12OptimizePerfDirective.vue'
 import UseToggle from './components/medium/15UseToggle.vue'
 import Until from './components/medium/16Until.vue'
+import UseCounter from './components/medium/17UseCounter.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <h1>Until</h1>
-    <Until />
+    <h1>UseCounter</h1>
+    <UseCounter />
   </div>
 </template>
 
