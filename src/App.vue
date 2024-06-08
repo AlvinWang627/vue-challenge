@@ -17,12 +17,13 @@ import UseToggle from './components/medium/15UseToggle.vue'
 import Until from './components/medium/16Until.vue'
 import UseCounter from './components/medium/17UseCounter.vue'
 import UseLocalStorage from './components/medium/18UseLocalStorage.vue'
+import VFocus from './components/medium/19VFocus.vue'
 </script>
 
 <template>
   <div class="wrapper">
-    <h1>UseLocalStorage</h1>
-    <UseLocalStorage />
+    <h1>VFocus</h1>
+    <VFocus />
   </div>
 </template>
 
